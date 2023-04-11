@@ -1,3 +1,3 @@
 # HelloSwiftPkg
 
-A description of this package.
+A hello-world example of Swift Packages
