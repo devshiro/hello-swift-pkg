@@ -1,12 +1,12 @@
 import Foundation
 
 public struct Example {
-    var displayName: String
-    var package: String
-    var unit: Int
-    var price: Double
+    public var displayName: String
+    public var package: String
+    public var unit: Int
+    public var price: Double
     
-    var pricePerUnit: Double {
+    public var pricePerUnit: Double {
         return unit > 1 ? price / Double(unit) : price
     }
     
