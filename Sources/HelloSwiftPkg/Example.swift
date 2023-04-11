@@ -10,7 +10,7 @@ public struct Example {
         return unit > 1 ? price / Double(unit) : price
     }
     
-    internal init(displayName: String, package: String, unit: Int, price: Double) {
+    public init(displayName: String, package: String, unit: Int, price: Double) {
         self.displayName = displayName
         self.package = package
         self.unit = unit
