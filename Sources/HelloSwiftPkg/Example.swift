@@ -9,4 +9,11 @@ public struct Example {
     var pricePerUnit: Double {
         return unit > 1 ? price / Double(unit) : price
     }
+    
+    internal init(displayName: String, package: String, unit: Int, price: Double) {
+        self.displayName = displayName
+        self.package = package
+        self.unit = unit
+        self.price = price
+    }
 }
