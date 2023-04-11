@@ -1,6 +1,6 @@
 import Foundation
 
-struct Example {
+public struct Example {
     var displayName: String
     var package: String
     var unit: Int
